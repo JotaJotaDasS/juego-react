@@ -8,18 +8,21 @@ section .section-title h1{
 
 section .section-title h1{
     font-size: 4rem;
+    
 }
 
 section .section-title h5{
     font-size: 1.5rem;
     color: rgb(106, 98, 98);
     font-weight: 400;
+    transition: color 1s;
 }
 
 section p{
     font-size: 1rem;
     max-width: 380px;
     color: gray;
+    
 }
 
 section button{
@@ -32,4 +35,16 @@ section button{
     gap: 0.5rem;
     font-size: 1.1rem;
     border-radius: 25px;
+}
+
+.mood section .section-title h1{
+    color: #788cc1;
+}
+
+.mood section h5{
+    color: #fff
+}
+
+.mood section p{
+    color:#fff
 }

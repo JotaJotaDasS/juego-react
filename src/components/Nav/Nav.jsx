@@ -19,3 +19,10 @@ const Nav = () => {
 }
 
 export default Nav
+
+const MoodItem = document.querySelector(".mood-item");
+const BodyVery = document.querySelector("#body");
+
+MoodItem.addEventListener("click", ()=>{
+  BodyVery.classList.toggle("mood")
+})

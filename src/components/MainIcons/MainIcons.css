@@ -4,4 +4,10 @@
     display: grid;
     transform: translateY(-50%);
     gap: 1rem;
+    transition: color 1s;
+    padding: 0px 0px 300px 40px;
+}
+
+.mood .icons-socil{
+    color: #fff;
 }
